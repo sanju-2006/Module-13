@@ -10,6 +10,8 @@ To write a Python program to convert a given Infix expression to Postfix express
 
 ### ALGORITHM
 
+
+
 1. **Start the program.**
 2. **Initialize an empty stack** and an empty output string.
 3. **Iterate through each character** in the infix expression:
