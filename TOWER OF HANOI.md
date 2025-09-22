@@ -32,13 +32,27 @@ Consider the names of the tower pegs as A, B, C. Get the number of disks value f
 ### PROGRAM  
 
 ```
+def TowerOfHanoi(n , source, destination, auxiliary):
+	
+	if n>0:
+	    TowerOfHanoi(n-1, source,auxiliary,destination)
+	    print("Move disk from",source,"to",destination)
+	    TowerOfHanoi(n-1,auxiliary,destination, source)
 
+n=int(input())		
+print("No. of disks =",n)
 
 ```
 
 ### OUTPUT
 
-
+No. of disks = 2
+Move disk from A to B
+Move disk from A to C
+Move disk from B to C
 
 ### RESULT
+
+
+<img width="849" height="836" alt="image" src="https://github.com/user-attachments/assets/c171a573-8710-4765-911d-0755c4a46f4f" />
 
