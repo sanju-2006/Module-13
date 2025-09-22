@@ -1,10 +1,10 @@
 # Exp.No:34  
-## PREFIX EVALUATION
+## implement stack using List and its built-in methods
 
 ---
 
 ### AIM  
-To write a Python program to evaluate a user-given Prefix expression using a stack. The expression must contain operators such as Multiplication, Addition, and Subtraction.
+Debug a Python program to implement stack using List and its built-in methods (append() and pop() ) in Python.  Get five items from the user and save them in stack, then pop two items from stack and display the stack before and after popped
 
 ---
 
@@ -28,13 +28,32 @@ To write a Python program to evaluate a user-given Prefix expression using a sta
 ### PROGRAM
 
 ```
+stack = []
+for i in range(5):
+    a=input()
+    stack.append(a)
 
+print('Stack before elements are popped')
+print(stack)
+
+for i in range(2):
+    stack.pop()
+
+
+print('\nStack after elements are popped:')
+print(stack)
 
 ```
 
 
 ### OUTPUT
 
+Stack before elements are popped
+['Hello', 'Everyone!', 'Welcome', 'to', 'Python']
 
+Stack after elements are popped:
+['Hello', 'Everyone!', 'Welcome']
 
 ### RESULT
+
+<img width="1119" height="524" alt="image" src="https://github.com/user-attachments/assets/16db5157-d1dc-440f-9d40-c138dc8f43a9" />
