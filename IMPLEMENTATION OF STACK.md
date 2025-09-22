@@ -1,10 +1,15 @@
 # Exp.No:31  
-## IMPLEMENTATION OF STACK
+## evaluate the user given Prefix expression using stack
 
 ---
 
 ### AIM  
-To write a Python program to implement a stack using a list and its built-in methods (`append()`, `pop()`).
+Write a Python program to evaluate the user given Prefix expression using stack. The infix expression must contain operators viz., Multiplication, Addition and Subtraction
+
+[ Output format:
+
+Prefix Expression : +23
+Evaluation result : 5 ]
 
 ---
 
@@ -27,5 +32,36 @@ To write a Python program to implement a stack using a list and its built-in met
 ### PROGRAM
 
 ```
+OPERATORS=set(['*','-','+','%','/','**']) 
 
+def evaluate(expression):
+	
+	stack = []
+	for c in expression[::-1]:
+	    if c not in OPERATORS:
+	        stack.append(int(c))
+	    else:
+	        o1=stack.pop()
+	        o2=stack.pop()
+	        
+	        if c == '+':
+	            stack.append(o1+o2)
+	        elif c=='-':
+	            stack.append(o1-o2)
+	        elif c=='*':
+	            stack.append(o1*o2)
+	return stack.pop()
+test_expression=input()
+print("Prefix Expression :",test_expression)
+print("Evaluation result :",evaluate(test_expression))
 ```
+
+
+### OUTPUT
+
+Prefix Expression : +-927
+Evaluation result : 14
+
+### RESULT
+
+<img width="782" height="236" alt="image" src="https://github.com/user-attachments/assets/97e409d7-bf87-4f6b-8e80-1c177921d71e" />
