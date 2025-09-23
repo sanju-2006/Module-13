@@ -59,9 +59,9 @@ print("Evaluation result :",evaluate(test_expression))
 
 ### OUTPUT
 
-Prefix Expression : +-927
-Evaluation result : 14
+<img width="782" height="236" alt="image" src="https://github.com/user-attachments/assets/97e409d7-bf87-4f6b-8e80-1c177921d71e" />
+
 
 ### RESULT
 
-<img width="782" height="236" alt="image" src="https://github.com/user-attachments/assets/97e409d7-bf87-4f6b-8e80-1c177921d71e" />
+Python program to evaluate the user given Prefix expression using stack. The infix expression must contain operators viz., Multiplication, Addition and Subtraction is successfully verified
