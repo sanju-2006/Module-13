@@ -46,13 +46,10 @@ print("No. of disks =",n)
 
 ### OUTPUT
 
-No. of disks = 2
-Move disk from A to B
-Move disk from A to C
-Move disk from B to C
+<img width="849" height="836" alt="image" src="https://github.com/user-attachments/assets/c171a573-8710-4765-911d-0755c4a46f4f" />
+
 
 ### RESULT
 
-
-<img width="849" height="836" alt="image" src="https://github.com/user-attachments/assets/c171a573-8710-4765-911d-0755c4a46f4f" />
+Python program to implement **Tower of Hanoi** and display all the moves of the disks using a recursive function is successfully verified
 
