@@ -48,12 +48,8 @@ print(stack)
 
 ### OUTPUT
 
-Stack before elements are popped
-['Hello', 'Everyone!', 'Welcome', 'to', 'Python']
-
-Stack after elements are popped:
-['Hello', 'Everyone!', 'Welcome']
+<img width="1119" height="524" alt="image" src="https://github.com/user-attachments/assets/16db5157-d1dc-440f-9d40-c138dc8f43a9" />
 
 ### RESULT
 
-<img width="1119" height="524" alt="image" src="https://github.com/user-attachments/assets/16db5157-d1dc-440f-9d40-c138dc8f43a9" />
+Python program to implement stack using List and its built-in methods (append() and pop() ) in Python.  Get five items from the user and save them in stack, then pop two items from stack and display the stack before and after popped is successfully verified
