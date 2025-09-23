@@ -70,10 +70,9 @@ print('Evaluation result: ',evaluate_postfix(expression))
 
 ### OUTPUT
 
-postfix expression:  23+45+*
-Evaluation result:  45
+<img width="753" height="166" alt="image" src="https://github.com/user-attachments/assets/7e5db9f1-2d3c-47fe-9e6a-2b792285ddf4" />
+
 
 ### RESULT
 
-<img width="753" height="166" alt="image" src="https://github.com/user-attachments/assets/7e5db9f1-2d3c-47fe-9e6a-2b792285ddf4" />
-
+Python program to evaluate a user-given Postfix expression that contains Multiplication and Addition operators using the stack concept is successfully verified
