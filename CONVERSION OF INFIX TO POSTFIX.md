@@ -63,11 +63,10 @@ print("postfix notation: ",infixToPostfix(expression))
 
 ### OUTPUT
 
-infix notation:  8*(5^3)
-postfix notation:  853^*
+<img width="679" height="162" alt="image" src="https://github.com/user-attachments/assets/7dc22a51-e6a7-4f3d-afb9-b782a8afdd6c" />
 
 ### RESULT
 
-<img width="679" height="162" alt="image" src="https://github.com/user-attachments/assets/7dc22a51-e6a7-4f3d-afb9-b782a8afdd6c" />
+ Python program to convert a given Infix expression to Postfix expression by following the precedence and associative rules. The input expression contains only Division, Subtraction, and Bitwise AND operators is successfully verified
 
 
